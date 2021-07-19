@@ -5,7 +5,7 @@ import haxe.xml.Access;
  * Utils for xml/access
  * @author Ludovic Bas - www.lugludum.com
  */
-class Kxml 
+class XMLUtils 
 {
 
 	/**
@@ -51,6 +51,22 @@ class Kxml
 	inline public static function getString(xml:Access, name:String, defaultValue:String = ""):String
 	{
 		return xml.has.resolve(name) ? xml.att.resolve(name) : defaultValue;
+	}
+	
+	/**
+	*
+	* Get first child
+	*
+	*/
+	inline public static function getFirstChild(xml:Access):Access
+	{
+		var child = null;
+		for (el in xml.elements)
+		{
+			child = el;
+			break;
+		}
+		return child;
 	}
 	
 }
