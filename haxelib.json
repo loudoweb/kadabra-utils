@@ -1,0 +1,11 @@
+{
+    "name": "kadabra-utils",
+    "license": "MIT",
+    "tags": ["utils", "xml"],
+    "classPath": "",
+    "description": "Set of utils for Haxe.",
+    "contributors": ["loudoweb"],
+    "releasenote": "See repository",
+    "version": "0.3.0",
+    "url": "https://github.com/loudoweb/kadabra-utils"
+  }

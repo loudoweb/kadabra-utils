@@ -2,10 +2,6 @@ package kadabra.utils;
 
 import openfl.geom.Point;
 
-/**
- * ...
- * @author Ludovic Bas - www.lugludum.com
- */
 class MathUtils {
 	inline static public function distance(x1:Float, y1:Float, x2:Float, y2:Float):Float {
 		var dx:Float = x1 - x2;
