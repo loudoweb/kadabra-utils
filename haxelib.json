@@ -3,7 +3,7 @@
     "license": "MIT",
     "tags": ["utils", "xml"],
     "classPath": "",
-    "description": "Set of utils for Haxe.",
+    "description": "Set of utils for Haxe. Used mostly by libraries by same author.",
     "contributors": ["loudoweb"],
     "releasenote": "See repository",
     "version": "0.3.0",
